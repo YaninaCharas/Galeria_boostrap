@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bc-body{
+    width: 100%;
+    height: auto;
+    background: rgb(16,15,16);
+    background: linear-gradient(0deg, rgb(244, 241, 244) 0%, rgb(11, 11, 11) 100%);
+}
+
+.hero{
+    background-image: url(../images/elefante.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bijou{
+    height: 400px;
+    padding-left: 22rem;
+}
+
+.footer{
+    padding-top: 10rem;
+}
+ .t_fondo{
+    width: 250px;
+    height: 250px;
+ }
+
+ @media screen max-width{
+    .conteiner {d-flex flex-column justify-content-center align-items-center"}
+ }
