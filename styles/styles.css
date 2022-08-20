@@ -22,6 +22,17 @@
     width: 2%;
 }
 
+.footer_formularios_fijo{
+    background-color: transparent;
+    padding: 0.5rem;
+    padding-top: 0.2rem;
+    width: 100%;
+    bottom:0rem;
+    left:1rem; 
+    position:fixed;
+}
+
+
 @media screen and (max-width: 770px) {
     .max-altura{
         margin-left: 20%;
