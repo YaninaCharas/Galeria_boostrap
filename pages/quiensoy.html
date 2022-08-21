@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quien Soy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body class="bc-body">
@@ -19,7 +20,7 @@
             <div class="navbar-nav">
               <a class="nav-link" href="../index.html">INICIO</a>
               <a class="nav-link active" aria-current="page" href="#">QUIEN SOY</a>             
-              <a class="nav-link" href="cuadros.html">GALERIA</a>
+              <a class="nav-link" href="cuadros.html">CUADROS</a>
               <a class="nav-link" href="bijou.html">BIJOUX</a>
               <a class="nav-link" href="talleres.html">TALLERES</a>
               <a class="nav-link" href="contacto.html">CONTACTO</a>
@@ -27,7 +28,7 @@
           </div>
         </div>
       </nav>
-      <section class="container vh-100 ">
+      <section class="container vh-100" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="row mt-5">
             <div class="col-md-8 d-flex flex-column justify-content-center text-white">
                 <h1>Acerca de Mi</h1>
@@ -37,14 +38,24 @@
                 <img src="../images/yo.jpeg" alt="yanina charas" class="mw-100 border border-dark rounded m-1 p-1 " >
             </div>
         </div>
+        <div class="d-flex flex-column justify-content-center text-white">
+              <h2>Exposiciones</h2>
+              <a class="text-decoration-none" href="https://museomacba.org/">Museo MACBA  - Pabellon1 - Junio22</a>
+              <a class="text-decoration-none" href="http://www.ruthbenzacar.com/">Ruth Benzacar - Sala2C - Septiembre21</a>
+              <a class="text-decoration-none" href="http://delinfinito.com/">Galeria del Infinito - Aula3 - Exposicion Permanente</a>
+        </div>
       </section>
       <footer class="m-3 footer_formularios_fijo">
         <span class="text-secondary bg-transparent  justify-content-left align-items-center p-2 m-1">Copywrite 2022 - </span>
-        <a href="mailto:info@arte.com">Contactame aqui</a>
+        <a class="text-decoration-none" href="mailto:info@arte.com">Contactame aqui</a>
         <a href="https://www.facebook.com" target="_blank"><img class="max-red" src="../images/fb.png" alt="fb"></a>
         <a href="https://www.instagram.com" target="_blank" ><img class="max-red" src="../images/itg.png"></a>
         <a href="#" target="_blank"><img class="max-red" src="../images/wp.png" alt="wp"></a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
